@@ -1,3 +1,11 @@
 What is HTML?
-HTML stands for HyperText Markup Language. It is not a programming language, but a markup language used to create the structure and content of a webpage.
+->HTML stands for HyperText Markup Language. It is not a programming language, but a markup language used to create the structure and content of a webpage.
+->programming languages can execute logic and algorithms, while markup languages are used for structuring and presenting content.
+->HyperText: Refers to the "links" that connect web pages, allowing you to navigate the internet.
+->Markup Language: Refers to the use of "tags" (like <h1> or <p>) to define the layout and elements of your content.
 
+
+
+Elements of Basic HTML Structure
+-><!DOCTYPE html>
+This declaration defines that the document is an HTML5 document. It must always be the very first line of your code.
