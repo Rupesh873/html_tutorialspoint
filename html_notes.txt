@@ -1,0 +1,3 @@
+What is HTML?
+HTML stands for HyperText Markup Language. It is not a programming language, but a markup language used to create the structure and content of a webpage.
+
