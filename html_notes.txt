@@ -9,3 +9,89 @@ What is HTML?
 Elements of Basic HTML Structure
 -><!DOCTYPE html>
 This declaration defines that the document is an HTML5 document. It must always be the very first line of your code.
+-><html>...</html>
+This is the root element of the page. All other elements are nested inside it.
+-><head>...</head>
+The <head> section contains meta-information that isn't displayed directly on the page, like the page title or links to CSS stylesheets.
+-><title>...</title>
+The <title> tag sets the title of the webpage. This is what you see in the browser tab and what search engines use as the main title in search results.
+-><body>...</body>
+The <body> tag contains all the visible content of your webpage—headings, paragraphs, images, links, etc.
+
+
+
+Essential HTML Elements (Tags)
+->Headings: <h1> to <h6>
+HTML provides six levels of headings. <h1> is the most important (the main title of your content), while <h6> is the least.
+<h1>Main Title</h1> <h2>A Sub-heading</h2>
+->Paragraphs: <p>
+The <p> tag defines a paragraph of text. Browsers automatically add space before and after each paragraph.
+<p>This is a paragraph of text. You can write multiple sentences here.</p>
+->Links: <a>
+The <a> (or anchor) tag creates a hyperlink. The href attribute specifies the URL to which the link points.
+<a href="https://www.google.com">Click here to visit Google</a>
+->Comments: <!-- ... -->
+You can add comments to your code to leave notes for yourself or others. The browser ignores comments.
+<!--This is a comment-->
+
+
+
+What is an HTML Element?
+An HTML element is a basic building block to create a webpage, and It is created by a start tag, content, and end tag. In an HTML element, the content is placed between a start and end tag.
+The basic syntax of an HTML element is −
+<tag_name>content</tag_name>
+
+
+
+Web Browser Role
+The role of a web browser is to read HTML documents from the given path (either from the server or from a local device) and display it on the webpages. All web browsers, such as Google Chrome, Safari, Firefox, etc., are compatible with reading HTML documents. You can use any of the web browsers to display your HTML document in web format.
+
+
+
+The <!DOCTYPE> Declaration
+The <!DOCTYPE> declaration tag is used by the web browser to understand the version of the HTML used in the document. The current version of HTML is 5 and it makes use of the following declaration − <!DOCTYPE html>.
+
+
+
+HTML Tags Vs. Elements Vs. Attributes
+->HTML tags are the keywords that can be used for a specific purpose to display and format the content on the webpage.
+->HTML elements are the basic building blocks that are made with the help of tags and content. An HTML element is created with a start tag, a content, and an end tag.
+->And, HTML attributes provide additional information about HTML elements; in order to define or change their behavior. Attributes are used with an opening tag.
+----------------------------------------------------------------------------------------------------
+
+
+
+HTML Basic Tags
+
+Heading Tags
+Heading tags are used to define headings of documents. You can use different sizes for your headings. HTML also has six levels of headings, which use the elements <h1>, <h2>, <h3>, <h4>, <h5>, and <h6>. While displaying any heading, the browser adds one line before and one line after that heading.
+
+
+
+Paragraph Tag
+The <p> tag offers a way to structure your text into different paragraphs. Each paragraph of text should go in between an opening <p> and a closing </p> tag.
+
+
+
+Line Break Tag
+The <br> tag is used to insert a line break in the text. It forces the content after it to appear on the next line. This tag is used whenever you want the text to break into a new line without starting a new paragraph.
+Note: The <br> tag is an empty tag and does not need a closing tag.
+
+
+
+Center Tag
+In HTML, the alignment should be handled using CSS rather than deprecated tags. The <center> tag, previously used to align content to the center of a web page, is deprecated in HTML5. You can use the text-align: center; property of CSS to center text or inline elements.
+
+
+
+Horizonal Rule Tag
+The <hr> tag is used to insert a horizontal line across the page. It is commonly used to separate sections of content visually.
+Note: Like <br> tag, the <hr> tag is also an empty tag and does not need a closing tag.
+
+
+
+Preserve Formatting Tag
+The <pre> tag is used to preserve the formatting. Whenever you want to display content on the webpage exactly in the same format as it was written in the HTML document, you can use the <pre> tag. It preserves the formatting of source code, including line breaks and indentation.
+
+
+
