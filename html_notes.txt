@@ -95,3 +95,12 @@ The <pre> tag is used to preserve the formatting. Whenever you want to display c
 
 
 
+Non-breaking Spaces
+->Non-breaking spaces prevent an automatic line break and are displayed using the &nbsp; entity.
+->Suppose if you want to use the phrase "12 Angry Men." Here, you would not want a browser to split the "12, Angry" and "Men" across two lines −
+->An example of this technique appears in the movie "12 Angry Men."
+->In cases, where you do not want the client browser to break text, you should use a nonbreaking space entity &nbsp; instead of a normal space. For example, when coding the "12 Angry Men" in a paragraph, you should use something similar to the following code −
+
+
+
+Listing Tags
