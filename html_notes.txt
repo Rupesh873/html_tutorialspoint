@@ -104,3 +104,52 @@ Non-breaking Spaces
 
 
 Listing Tags
+The <ul> and <ol> tags create the unordered and ordered listings, and to display list items, the <li> tag is used.
+----------------------------------------------------------------------------------------------------
+
+
+
+What Is an HTML Element?
+->An HTML element is a fundamental component of an HTML document that can contain data to display on the webpage, such as text, image, link, or sometimes nothing. An HTML element includes an opening tag, content, and a closing tag, where the opening tag may also include attributes.
+->An HTML element includes:
+    ->Opening Tag: An opening tag specifies the beginning of the element and may include multiple attributes.
+    ->Content: The content part includes the information to be displayed or processed within an element.
+    ->Closing Tag: A closing tag marks the end of the element (A closing tag may be optional for some elements).
+
+
+
+Elements vs. Tags: What's the Real Difference?
+->An HTML Tag is just the opening <p> or closing </p> part. They are the instructions.
+->An HTML Element is the entire thing: the opening tag, the content inside, and the closing tag.
+->Think of it like a sandwich. The two slices of bread are the tags, and the complete sandwich with everything inside is the element.
+
+
+
+Attributes With HTML Elements
+->The attributes can be placed with an opening tag by using the pairs of attribute name and value. Multiple attributes can be separated with a space.
+->The following statement demonstrates the use of two attributes src and alt with an HTML element img:
+<img src="logo.jpg" alt="TutorialsPoint Logo" />
+
+
+
+Are HTML Elements Case-sensitive?
+No, HTML elements are not case-sensitive, which means we can write HTML elements either in uppercase or lowercase.
+----------------------------------------------------------------------------------------------------
+
+
+
+What Are HTML Attributes?
+->HTML attributes are special words that provide additional information to an HTML element. Attributes are placed inside the element's opening tag, and they are used to configure or adjust the element's behavior. All attributes are made up of two parts: a name and a value −
+    ->Name: The attribute name is the keyword, also known as the attribute identifier, which defines a specific characteristic for the element in which it is using. For example, the paragraph <p> element (in the below-given example) has an attribute "align", which defines the alignment of the paragraph on the page.
+    ->Value: The attribute value is the data or information that defines the value to be set for that attribute. The value is assigned within the double quotes. For example, "left", "center", or "right" can be assigned to the "align" attribute with the paragraph tag (as shown in the below example).
+->The syntax of an element HTML having attribute − <tag_name attribute="Value">...</tag_name>
+
+
+
+Rules and Characteristics
+The following are the rules and characteristics of HTML attributes; you should follow while using attributes with HTML elements:
+    ->Attributes are optional; you can use them to provide additional information about an HTML element.
+    ->Attributes have name and value pairs, but some of the attributes do not require any value; those are known as Boolean attributes.
+    ->An HTML element can have multiple attributes, and they should be separated by spaces.
+    ->Attributes should always be written with the opening tag.
+    ->All HTML elements can have attributes except a few like <head>, <title>, <script>, etc.
